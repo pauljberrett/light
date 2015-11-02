@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paul's World of Web</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/bear.png">
+</head>
+<body ng-app="light" ng-controller="mainCtrl">
+    <div class="wrapper">
+        <navbar></navbar>
+        <div class="content">
+            <ui-view></ui-view>  
+        </div>
+        <myfoot class="footer"></myfoot>
+    </div>
+</body>
+<script src="../node_modules/angular/angular.js"></script>
+<script src="../node_modules/ui-router/release/angular-ui-router.js"></script>
+<script src="../static/js/app.js"></script>
+<script src="../static/js/mainCtrl.js"></script>
+<script src="../static/js/navbar.js"></script>
+<script src="../static/js/footer.js"></script>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</html>
